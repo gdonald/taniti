@@ -1,0 +1,154 @@
+body {
+  font-family: sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+.persona-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.persona-header {
+  margin-bottom: 2rem;
+  color: #6136a5;
+}
+
+.profile-card {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.profile-header {
+  background-color: #6136a5;
+  color: white;
+  padding: 1.5rem;
+  position: relative;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border: 5px solid white;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  bottom: -75px;
+  left: 50px;
+}
+
+.profile-name {
+  margin-left: 220px;
+}
+
+.profile-content {
+  padding: 2rem 1.5rem 1.5rem;
+}
+
+.info-section {
+  margin-bottom: 1.5rem;
+}
+
+.info-section h3 {
+  color: #6136a5;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #e9f5f8;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.info-item {
+  padding: 1rem;
+  background-color: #e9f5f8;
+  border-radius: 0.5rem;
+}
+
+.info-item-label {
+  font-size: 0.875rem;
+  color: #6c757d;
+  margin-bottom: 0.25rem;
+}
+
+.info-item-value {
+  font-weight: 500;
+}
+
+.persona-story {
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.persona-story h3 {
+  color: #6136a5;
+  margin-bottom: 1rem;
+}
+
+.quote {
+  font-style: italic;
+  color: #495057;
+  padding: 1rem;
+  background-color: #e9f5f8;
+  border-left: 5px solid #6136a5;
+  border-radius: 0.25rem;
+  margin: 1.5rem 0;
+}
+
+.motivations {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.motivation-item {
+  flex: 1 1 30%;
+  min-width: 220px;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 0.5rem;
+  border-left: 3px solid #20c997;
+}
+
+.frustration-item {
+  flex: 1 1 30%;
+  min-width: 220px;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 0.5rem;
+  border-left: 3px solid #dc3545;
+}
+
+.goals {
+  margin-top: 1.5rem;
+}
+
+.goal-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.goal-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #e9f5f8;
+  color: #6136a5;
+  margin-right: 1rem;
+  flex-shrink: 0;
+}

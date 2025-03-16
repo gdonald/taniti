@@ -1,0 +1,117 @@
+body {
+  font-family: sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+.timeline-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.timeline-header {
+  margin-bottom: 3rem;
+  color: #6136a5;
+}
+
+.timeline {
+  position: relative;
+  padding: 1rem 0;
+}
+
+.timeline-line {
+  position: absolute;
+  width: 4px;
+  background-color: #6136a5;
+  top: 0;
+  bottom: 0;
+  left: 1rem;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 2.5rem;
+  padding-left: 2.5rem;
+}
+
+.timeline-content {
+  position: relative;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  border-left: 5px solid #6136a5;
+}
+
+.timeline-content h3 {
+  color: #6136a5;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.days-container {
+  margin-top: 1rem;
+}
+
+.day-item {
+  margin-bottom: 1.5rem;
+  background-color: #e9f5f8;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.day-header {
+  background-color: #6136a5;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+}
+
+.day-content {
+  padding: 1rem;
+}
+
+.day-content ul {
+  padding-left: 1.25rem;
+  margin-bottom: 0;
+}
+
+.timeline-marker {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #6136a5;
+  left: 1rem;
+  top: 1.5rem;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+
+.week-label {
+  position: absolute;
+  background-color: #6136a5;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  font-size: 0.875rem;
+  left: 1rem;
+  top: 1.5rem;
+  transform: translateX(-50%);
+  z-index: 10;
+  white-space: nowrap;
+}
+
+.deliverable {
+  margin-top: 1.5rem;
+  padding: 0.75rem;
+  background-color: #f8f1e9;
+  border-left: 3px solid #f0ad4e;
+  border-radius: 0.25rem;
+  font-size: 0.9rem;
+}
+
+.deliverable strong {
+  color: #f0ad4e;
+}

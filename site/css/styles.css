@@ -1,0 +1,124 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #e7f1ff;
+  color: #0c63e4;
+}
+
+.faq-header {
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  color: white;
+  padding: 2rem 0;
+  margin-bottom: 2rem;
+}
+
+.faq-icon {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+  color: #0d6efd;
+}
+
+footer {
+  background-color: #00b118;
+  padding: 2rem 0;
+  margin-top: 2rem;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 0.5rem;
+}
+
+.footer-links a:hover {
+  color: #b4ffbd;
+  text-decoration: underline;
+}
+
+a {
+  color: #6200ff;
+}
+
+a:hover {
+  color: #c411ff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #6136a5;
+}
+
+.navbar {
+  background-color: #6136a5;
+}
+
+.navbar a {
+  color: #fff;
+}
+
+.navbar a:hover {
+  color: #e731ff;
+}
+
+.navbar-nav .nav-link.active {
+  color: #f4a6fe;
+}
+
+.navbar-nav .nav-link.show {
+  color: white;
+}
+
+.navbar-toggler {
+  border: 2px solid #6699cc;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #007c97;
+  border-color: #00dddd;
+}
+
+.btn-primary:hover {
+  color: #00ffff;
+  background-color: #005b6c;
+  border-color: #00ffff;
+}
+
+.album {
+  background-color: #c8c8c8;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #6699cc;
+  color: #eee;
+}
+
+.accordion-button.collapsed {
+  background-color: #6136a5;
+  color: #eee;
+}
+
+.social-icons {
+  margin-top: 1rem;
+}
+
+img.social-icon {
+  width: 32px;
+  margin-right: 0.2rem;
+}
